@@ -1,0 +1,94 @@
+.cv-submitted {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.edit-button {
+  background-color: #28a745;
+  float: left;
+}
+
+.edit-button:hover {
+  background-color: #218838;
+}
+
+.print-button {
+  background-color: #007bff;
+  float: right;
+}
+
+.print-button:hover {
+  background-color: #0056b3;
+}
+
+.cv-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.cv-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  color: #555;
+  margin: 4px 0;
+}
+
+.cv-section {
+  margin-bottom: 24px;
+}
+
+.cv-section h2 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.cv-section hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin-bottom: 16px;
+}
+
+.cv-entry {
+  margin-bottom: 16px;
+}
+
+.cv-entry h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.cv-entry p {
+  font-size: 16px;
+  color: #555;
+  margin: 2px 0;
+}
+
+.cv-entry .date {
+  font-style: italic;
+  color: #777;
+}
+
+.cv-entry .responsibilities {
+  margin-top: 8px;
+  line-height: 1.8;
+}
+
+@media print {
+  .button-group {
+    display: none;
+  }
+}
